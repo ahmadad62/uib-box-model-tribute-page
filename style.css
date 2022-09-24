@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Nav Bar */
+.navBar {
+  font-family: "Courgette", cursive;
+  font-family: "Lato", sans-serif;
+  font-size: 1, 5rem;
+}
+.homeNav {
+  background-color: #333;
+  height: 100px;
+}
+
+.homeNav > ul > li {
+  display: inline;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.homeNav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1, 5rem;
+}
+
+input[type="submit"] {
+  background-color: #8f609e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+input[type="search"] {
+  background-color: #d5ddda;
+  border: none;
+  color: #4d4d4d;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.logo {
+  background-image: url("https://www.google.com/logos/doodles/2022/celebrating-stefan-banach-6753651837109380.4-s.png");
+  width: 122px;
+  height: 48px;
+}
+
+.searchNav {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  position: sticky;
+  font-size: 1, 5rem;
+}
+
+/*  */
+
+h1,
+h2 {
+  border-bottom: 3px solid #8f609e;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.secOne,
+.artOne {
+  margin-top: 20px;
+  width: 60%;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1.4rem;
+  margin-top: 8px;
+}
+
+.leftAside {
+  width: 30%;
+  margin-left: 110px;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  padding: 0px 70px 0 70px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+}
+.mainBody {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 30px;
+  display: flex;
+  background-color: rgb(223, 232, 233);
+}
+
+.artOne {
+  margin-top: 20px;
+  width: 100%;
+  /* display: flex; */
+}
+
+.artImg {
+  float: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+li {
+  font-size: 1.2rem !important;
+  margin-left: 35px;
+  padding-left: 10px;
+}
+
+/* footer */
+
+.fot {
+  background-color: #333;
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+ a {
+  text-decoration: none;
+  color: #8d087b;
+}
